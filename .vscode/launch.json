@@ -5,12 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "expo",
-            "request": "attach",
-            "name": "Debug Expo app",
-            "projectRoot": "${workspaceFolder}",
-            "bundlerPort": "8081",
-            "bundlerHost": "172.16.3.121:8081"
-        },
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        }
         ]
 }

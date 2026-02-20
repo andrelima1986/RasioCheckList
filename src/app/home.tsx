@@ -1,9 +1,9 @@
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
-import { View, StyleSheet, Image, ActivityIndicator } from "react-native";
+import { View, StyleSheet, Image } from "react-native";
 import { Provider } from "react-native-paper";
-import { theme } from "../themes";
-
+import { rasioColors, theme } from "../themes";
+import RasioLogoWhite from "../components/RasioLogoWhite";
 
 
 const Home = () => {
@@ -18,25 +18,9 @@ const Home = () => {
 
   return (
     <Provider theme={theme}>
-    <View style={styles.container}>
-         <Image  source={require('../img/rasio_logo.png')}/>
-    </View>
+      <RasioLogoWhite />
     </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#000',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text : {
-    fontSize: 20,
-    fontWeight: 'bold',
-        color: '#333',
-  }
-});
 
 export default Home;

@@ -35,28 +35,28 @@ export const theme: MD3Theme = {
   fonts: {
     ...MD3LightTheme.fonts,
     bodyLarge: {
-        fontFamily: "Lexend",
+        fontFamily: "Lexend_400Regular",
+        fontWeight: "400",
+        fontSize: 30,
+        letterSpacing: 0,
+        lineHeight: 0
+    },
+    bodyMedium: {
+        fontFamily: "Lexend_400Regular",
         fontWeight: "400",
         fontSize: 16,
         letterSpacing: 0,
         lineHeight: 0
     },
-    bodyMedium: {
-        fontFamily: "Lexend",
-        fontWeight: "400",
-        fontSize: 14,
-        letterSpacing: 0,
-        lineHeight: 0
-    },
     titleLarge: {
-        fontFamily: "Lexend",
+        fontFamily: "Lexend_700Bold",
         fontWeight: "700",
         fontSize: 24,
         letterSpacing: 0,
         lineHeight: 0
     },
     headlineLarge: {
-        fontFamily: "Lexend",
+        fontFamily: "Lexend_700Bold",
         fontWeight: "700",
         fontSize: 32,
         letterSpacing: 0,
@@ -65,13 +65,23 @@ export const theme: MD3Theme = {
   },
 };
 
-export const rasioTipografiasThemes = {
+export const rasioTipografiasThemesTitle = {
   h1: { fontSize: 32, fontWeight: "700" },
   h2: { fontSize: 30, fontWeight: "700" },
   h3: { fontSize: 28, fontWeight: "700" },
   h4: { fontSize: 24, fontWeight: "700" },
   h5: { fontSize: 22, fontWeight: "700" },
 
+  fontFamily: "Lexend_400Regular",
+
+  fontWeight: {
+    regular: "400",
+    medium: "500",
+    bold: "700",
+  } as const,
+};
+
+export const rasioTipografiasThemesParagraphs = {
   p11: { fontSize: 11, fontWeight: "400" },
   p12: { fontSize: 12, fontWeight: "400" },
   p14: { fontSize: 14, fontWeight: "400" },
@@ -79,11 +89,12 @@ export const rasioTipografiasThemes = {
   p18: { fontSize: 18, fontWeight: "400" },
   p20: { fontSize: 20, fontWeight: "400" },
 
-  fontFamily: "Lexend",
+  fontFamily: "Lexend_400Regular",
 
   fontWeight: {
-    regular: "400" as const,
-    medium: "500" as const,
-    bold: "700" as const,
-  },
-};
+    regular: "400",
+    medium: "500",
+    bold: "700",
+  } as const,
+}
+
