@@ -1,0 +1,70 @@
+[
+    {
+      "itemCheckListId": 1,
+      "dscItemCheckList": "Tacógrafo",
+      "itemCheckListObrigatorio": true,
+      "permiteFoto": true,
+      "exigeFotoQuandoIrregular": true,
+      "itemCheckListFotos": null,
+      "itemCheckListObservacao": null,
+      "statusEmpilhadeira": 1,
+      "statusCavaloSemirreboque": 2,
+      "perguntas": [
+        {
+          "perguntaCheckListId": 1,
+          "descricao": "Disco",
+          "obrigatoria": true
+        },
+        {
+          "perguntaCheckListId": 2,
+          "descricao": "Fita",
+          "obrigatoria": true
+        }
+      ],
+      "respostas": [
+        {
+          "respostaPerguntaCheckListId": 1,
+          "descricao": "Sim"
+        },
+        {
+          "respostaPerguntaCheckListId": 2,
+          "descricao": "Não"
+        }
+      ],
+      "categoriaItemCheckListId": 1,
+      "categoriaItemCheckList": {
+        "categoriaItemCheckListId": 1,
+        "descricao": "Itens/Documentos Obrigatórios (Cavalo Mecânico)"
+      },
+      "tipoCheckListId": 1,
+      "tipoCheckList": {
+        "tipoCheckListId": 1,
+        "descricao": "Cavalo Mecânico"
+      },
+      "checkListId": 1
+    },
+    {
+        "itemCheckListId": 2,
+        "dscItemCheckList": "Macaco, Chave de Roda e Triângulo",
+        "itemCheckListObrigatorio": true,
+        "permiteFoto": true,
+        "exigeFotoQuandoIrregular": true,
+        "itemCheckListFotos": null,
+        "itemCheckListObservacao": null,
+        "statusEmpilhadeira": null,
+        "statusCavaloSemirreboque": 2,
+        "perguntas": [],
+        "respostas": [],
+        "categoriaItemCheckListId": 1,
+        "categoriaItemCheckList": {
+            "categoriaItemCheckListId": 1,
+            "descricao": "Itens/Documentos Obrigatórios (Cavalo Mecânico)"
+        },
+        "tipoCheckListId": 1,
+        "tipoCheckList": {
+            "tipoCheckListId": 1,
+            "descricao": "Cavalo Mecânico"
+        },
+        "checkListId": 1
+    }
+  ]

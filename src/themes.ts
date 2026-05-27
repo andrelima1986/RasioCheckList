@@ -1,5 +1,6 @@
 import { MD3LightTheme, MD3Theme } from "react-native-paper";
 
+
 export const rasioColors = {
   preto: "#000",
   cinzaQuasePreto: "#121212",
@@ -82,7 +83,7 @@ export const rasioTipografiasThemesTitle = {
 };
 
 export const rasioTipografiasThemesParagraphs = {
-  p11: { fontSize: 11, fontWeight: "400" },
+  p11: { fontSize: 11, fontWeight: "400", },
   p12: { fontSize: 12, fontWeight: "400" },
   p14: { fontSize: 14, fontWeight: "400" },
   p16: { fontSize: 16, fontWeight: "400" },

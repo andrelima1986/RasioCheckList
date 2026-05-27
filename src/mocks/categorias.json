@@ -1,0 +1,93 @@
+[
+    {
+        "categoriaCheckListId": 1,
+        "descricao": "Itens/Documentos Obrigatórios (Cavalo Mecânico)",
+        "itemCheckLists": []        
+    },
+    {
+        "categoriaCheckListId": 2,
+        "descricao": "Sistema Elétrico (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 3,
+        "descricao": "Sistema de Freios (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 4,
+        "descricao": "Lavagem e Lubrificação (Cavalo Mecânico)",
+        "itemCheckLists": []
+
+    },
+    {
+        "categoriaCheckListId": 5,
+        "descricao": "Chassis (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 6,
+        "descricao": "Estrutura (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 7,
+        "descricao": "Mecânica (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 8,
+        "descricao": "Pneus e Rodas (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 9,
+        "descricao": "Funilaria (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 10,
+        "descricao": "Interior (Cavalo Mecânico)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 11,
+        "descricao": "Itens/Documentos Obrigatórios (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 12,
+        "descricao": "Sistema Elétrico (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 13,
+        "descricao": "Lavagem e Lubrificação (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 14,
+        "descricao": "Estrutura (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 15,
+        "descricao": "Mecânica (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 16,
+        "descricao": "Pneus e Rodas (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 17,
+        "descricao": "Sistema de Freios (Semirreboque)",
+        "itemCheckLists": []
+    },
+    {
+        "categoriaCheckListId": 18,
+        "descricao": "Chassis (Semirreboque)",
+        "itemCheckLists": []
+    }
+]
